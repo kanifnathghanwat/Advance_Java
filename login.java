@@ -1,6 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
-class login implements ActionListener
+class Login implements ActionListener
 {
 	
 Frame f;
@@ -33,7 +33,7 @@ String s1=T1.getText();
 String s2=T2.getText();
 if(ae.getSource()==b1)
 {
-if(s1.equals("nikhilpatkal") && s2.equals("9552180990"))
+if(s1.equals("kanifnath") && s2.equals("7028534834"))
 {
 	Frame f=new Frame();
 	Label n=new Label("valid username and password");
@@ -65,7 +65,7 @@ if(ae.getSource==b2)
 
 public static void main(String [] args)
 {
-new login();
+new Login();
 }
 }
 
